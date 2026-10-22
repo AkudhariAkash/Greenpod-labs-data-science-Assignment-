@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/
+data/avocado_dataset_download
+Dataset/
+data/processed/*
+artifacts/**/*.joblib
+artifacts/**/*.pt
+artifacts/**/*.pth
+frontend/node_modules/
+frontend/dist/
+.env
