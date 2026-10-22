@@ -1,0 +1,81 @@
+{
+  "model": "classical",
+  "accuracy": 0.9932885906040269,
+  "macro_precision": 0.9913793103448276,
+  "macro_recall": 0.9907407407407407,
+  "macro_f1": 0.9908970539556439,
+  "weighted_f1": 0.9932841474332912,
+  "balanced_accuracy": 0.9907407407407407,
+  "classification_report": {
+    "blackspot": {
+      "precision": 0.9655172413793104,
+      "recall": 1.0,
+      "f1-score": 0.9824561403508771,
+      "support": 28.0
+    },
+    "canker": {
+      "precision": 1.0,
+      "recall": 0.9629629629629629,
+      "f1-score": 0.9811320754716981,
+      "support": 27.0
+    },
+    "fresh": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 42.0
+    },
+    "grenning": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 52.0
+    },
+    "accuracy": 0.9932885906040269,
+    "macro avg": {
+      "precision": 0.9913793103448276,
+      "recall": 0.9907407407407407,
+      "f1-score": 0.9908970539556439,
+      "support": 149.0
+    },
+    "weighted avg": {
+      "precision": 0.9935200185142329,
+      "recall": 0.9932885906040269,
+      "f1-score": 0.9932841474332912,
+      "support": 149.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      28,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      26,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      42,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      52
+    ]
+  ],
+  "labels": [
+    "blackspot",
+    "canker",
+    "fresh",
+    "grenning"
+  ],
+  "single_image_latency_ms": 28.650779866194664
+}
