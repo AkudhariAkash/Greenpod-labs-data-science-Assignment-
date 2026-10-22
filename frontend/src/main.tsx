@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API = import.meta.env.VITE_API_URL || 'https://greenpod-avocado-api.onrender.com';
 type Summary = { status: string; readable_images?: number; classes?: string[]; class_counts?: Record<string, number>; duplicate_image_count?: number; limitations?: string[] };
 type Metrics = { results?: Array<Record<string, unknown>>; status?: string };
 

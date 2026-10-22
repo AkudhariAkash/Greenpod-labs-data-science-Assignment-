@@ -16,7 +16,7 @@ MAX_BYTES = 10 * 1024 * 1024
 ALLOWED = {"image/jpeg", "image/png", "image/webp", "image/bmp", "image/tiff"}
 
 app = FastAPI(title="Avocado Ripeness Classification API", version="1.0.0")
-configured_origins = os.getenv("FRONTEND_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173")
+configured_origins = os.getenv("FRONTEND_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173,https://greenpod-avocado-frontend.onrender.com")
 app.add_middleware(CORSMiddleware, allow_origins=[origin.strip() for origin in configured_origins.split(",") if origin.strip()], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
 
